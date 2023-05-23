@@ -87,5 +87,15 @@
             >;
         };
 
+        layer_Coding {
+            bindings = <
+ &trans  &trans      &trans     &trans           &trans        &trans              &trans                                                          &trans           &trans            &trans             &trans   &trans  &trans  &trans
+ &trans  &trans      &trans     &trans           &trans        &trans              &trans                                                          &trans           &trans            &trans             &trans   &trans  &trans  &trans
+ &trans  &trans  &kp PERIOD  &kp COMMA  &kp EXCLAMATION  &kp QUESTION            &kp SEMI  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT   &none  &trans
+ &trans  &trans      &trans     &trans           &trans        &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans           &trans            &trans             &trans   &trans  &trans  &trans
+ &trans  &trans      &trans     &trans           &trans                            &trans  &trans  &trans                  &trans  &trans          &trans                             &trans             &trans   &trans  &trans  &trans
+            >;
+        };
+
     };
 };
